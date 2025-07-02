@@ -1,6 +1,6 @@
 // App.js
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import NavBar from './components/Navbar';
 import Footer from './components/footer';
 import ScrollHome from './pages/ScrollHome'; // scrollable homepage
