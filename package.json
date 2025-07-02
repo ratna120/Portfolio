@@ -5,6 +5,7 @@
     "aos": "^2.3.4",
     "eslint-config-react-app": "^7.0.1",
     "framer-motion": "^12.20.1",
+    "homepage": " https://ratna120.github.io/Portfolio",
     "react-icons": "^5.5.0",
     "react-router-dom": "^7.6.2",
     "react-scripts": "^0.0.0",
@@ -12,7 +13,12 @@
     "web-vitals": "^5.0.3"
   },
   "scripts": {
-    "start": "react-scripts start"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "browserslist": {
     "production": [
@@ -28,6 +34,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.21",
+    "gh-pages": "^6.3.0",
     "postcss": "^8.5.6",
     "tailwindcss": "^4.1.10"
   }
