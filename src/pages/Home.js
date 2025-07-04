@@ -7,6 +7,7 @@ import profileImage from "../img/me3.jpg";
 function Home() {
   return (
     <div className="home-container">
+      <div className="home-text">
         <h1 className="intro-heading">
           Hello, I'm <span className="highlight">Ratna Kumari</span>
         </h1>
@@ -20,6 +21,7 @@ function Home() {
           Beyond coding, I’m an artist at heart — I love painting and dancing, which shapes my eye for design and aesthetics.
         </p>
         <p className="quote">“I turn ideas into interactive experiences.”</p>
+        </div>
         <img src={profileImage} alt="Profile" className="profile-img" />
     </div>
   );
